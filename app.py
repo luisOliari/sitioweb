@@ -69,7 +69,7 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        image = Image.open("imagenes\luis_logo.png")
+        image = Image.open("imagenes//luis_logo.png")
         st.image(image, use_container_width=True)
     with text_column:
         st.subheader("Diseño de aplicaciones")
@@ -86,7 +86,7 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        image = Image.open("imagenes\luis_blanco.png")
+        image = Image.open("imagenes//luis_blanco.png")
         st.image(image, use_container_width=True)
     with text_column:
         st.subheader("Automatización de tareas")
@@ -104,7 +104,7 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        image = Image.open("imagenes\luis_celeste.png")
+        image = Image.open("imagenes//luis_celeste.png")
         st.image(image, use_container_width=True)
     with text_column:
         st.subheader("Visualización de datos")
