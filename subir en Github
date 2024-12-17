@@ -1,0 +1,26 @@
+1)Primero, configura tu nombre de usuario y correo electrónico de Git (si aún no lo has hecho):
+
+git config --global user.name "Tu Nombre"
+git config --global user.email "tu-correo@ejemplo.com"
+
+2) Inicializa el repositorio (si no lo has hecho ya):
+
+git init
+
+3)Crea tu primera rama principal (generalmente llamada 'main' o 'master'):
+
+git checkout -b main
+
+4) Añade todos los archivos al stage:
+
+git add .
+
+5) Haz tu primer commit:
+
+git commit -m "Primer commit: Añadir archivos iniciales del proyecto"
+
+6)(Opcional) Si quieres subir el repositorio a GitHub:
+
+git remote add origin [URL_DE_TU_REPOSITORIO_GITHUB]
+git branch -M main
+git push -u origin main
