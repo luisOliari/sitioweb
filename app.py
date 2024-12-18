@@ -28,8 +28,8 @@ lottie_file ="https://assets9.lottiefiles.com/packages/lf20_ggwq3ysg.json"
 with st.container():
     st.header("Hola, somos Datos en movimiento 🖐")
     st.title("Aprendemos Inteligencia Artificial para nuestra vida cotidiana")
-    st.write("Somos unos apasionados de la tecnologia y la innovación, especializados en el sector de la digitalización y automatización de negocios")
-    #st.write("[Saber más>](https://luisoliari.com.uy")
+    st.write("Somos unos apasionados de la tecnologia, la innovación, la digitalización y automatización de negocios")
+    #st.write("[Saber más>](https://oliariluis@gmail.com")
 
 #sobre nosotros
 
@@ -42,17 +42,23 @@ with st.container():
                """
             Seguramente nosotros te vamos a poder ayudar sobre los siguientes objetivos:
         
-            -Educar sobre IA: Brindar conocimientos prácticos sobre inteligencia artificial para su aplicación en la vida diaria y en el ámbito laboral.
+            • Educar sobre IA: Brindar conocimientos prácticos sobre inteligencia artificial 
+            para su aplicación en la vida diaria y en el ámbito laboral.
             
-            -Desmitificar la IA: Eliminar mitos y simplificar conceptos complejos de inteligencia artificial para hacerlos accesibles a todos.
+            • Desmitificar la IA: Eliminar mitos y simplificar conceptos complejos de inteligencia 
+            artificial para hacerlos accesibles a todos.
             
-            -Fomentar la Innovación: Inspirar a los usuarios a adoptar herramientas de IA para mejorar procesos personales y profesionales.
+            • Fomentar la Innovación: Inspirar a los usuarios a adoptar herramientas de IA para 
+            mejorar procesos personales y profesionales.
             
-            -Desarrollar Habilidades: Enseñar técnicas y metodologías que permitan a las personas utilizar la inteligencia artificial con confianza y eficacia.
+            • Desarrollar Habilidades: Enseñar técnicas y metodologías que permitan a las personas
+            utilizar la inteligencia artificial con confianza y eficacia.
             
-            -Crear Comunidad: Construir una comunidad activa de personas interesadas en aprender y compartir experiencias sobre inteligencia artificial.
+            • Crear Comunidad: Construir una comunidad activa de personas interesadas en aprender 
+            y compartir experiencias sobre inteligencia artificial.
             
-            -Impulsar el Crecimiento Profesional: Ayudar a los usuarios a aplicar la inteligencia artificial para potenciar sus carreras y negocios.
+            • Impulsar el Crecimiento Profesional: Ayudar a los usuarios a aplicar la inteligencia 
+            artificial para potenciar sus carreras y negocios.
 
             ***Si esto suena interesante para ti puedes contactarnos a través del formulario que encontrarás al final de la página***
             """
@@ -65,34 +71,40 @@ with st.container():
 
 with st.container():
     st.write("---")
-    st.header("Servicios ⚒")
+    st.header("El Poder de la Inteligencia Artificial: ⚒")
     st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        image = Image.open("imagenes//luis_logo.png")
+        image = Image.open("imagenes\luis_logo.png")
         st.image(image, use_container_width=True)
     with text_column:
-        st.subheader("Diseño de aplicaciones")
+        st.subheader("Diseño de aplicaciones 🌐")
         st.write(
             """
-            Si en tus procesos diarios tienes que introducir infrormación en diferentes formatos de datos o bien tienes que trabajar con documentación en papel, es hora de pensar en implementar una aplicación en tu negocio para potenciar y optimizar el funcionamiento de los procesamientos diarios.
+            Si en tus tareas diarias debes manejar información en distintos formatos o trabajar con documentos
+            en papel, es momento de considerar la implementación de una aplicación en tu negocio. Esto te permitirá
+            mejorar y optimizar el procesamiento de datos, haciéndolo más eficiente y reduciendo errores.
             """
         )
         #st.write("[ver servicios >](https://luisoliari.com.uy/servicios/)")
         
 with st.container():
     st.write("---")
-    #st.header("Servicios ⚒")
+    #st.header("El Poder de la Inteligencia Artificial: ⚒")
     st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        image = Image.open("imagenes//luis_blanco.png")
+        image = Image.open("imagenes/luis_blanco.png")
         st.image(image, use_container_width=True)
     with text_column:
-        st.subheader("Automatización de tareas")
+        st.subheader("Automatización de tareas 📺")
         st.write(
             """
-            Si realizas cualquier tipo de tarea repetitiva como por ejemplo redactar email, comenzar a realizar informes, generar ideas de logos, generar imagnes además puedes sacar ideas para realizar actividades.
+            La automatización es tu aliado silencioso que trabaja 24/7 sin cansarse. 
+            Mientras los humanos se concentran en la creatividad y la toma de decisiones complejas, 
+            los sistemas de IA pueden manejar tareas repetitivas, análisis de datos masivos y procesos 
+            que consumirían días o semanas de trabajo humano. 
+            
             """
         )
         #st.write("[Ver servicios >](https://valerapp.com/services/)")
@@ -100,17 +112,21 @@ with st.container():
 
 with st.container():
     st.write("---")
-    #st.header("Servicios ⚒")
+    #st.header("El Poder de la Inteligencia Artificial: ⚒")
     st.write("##")
     image_column, text_column = st.columns((1,2))
     with image_column:
-        image = Image.open("imagenes//luis_celeste.png")
+        image = Image.open("imagenes\luis_celeste.png")
         st.image(image, use_container_width=True)
     with text_column:
-        st.subheader("Visualización de datos")
+        st.subheader("Visualización de datos 📶")
         st.write(
             """
-            Si sientes que no tienes una visión clara de los datos, la mejor forma de tomar decisiones en la vida cotidiana y en el trabajo es mediante la visualización de los datos. 
+            La visualización en IA es el arte de convertir números fríos en narrativas visuales poderosas. 
+            Es como si los datos pudieran hablar, mostrando patrones, tendencias y conocimientos que de otra 
+            manera quedarían ocultos. Imagina gráficos que no solo muestran información, sino que cuentan historias
+            completas de un vistazo: desde predicciones de mercado hasta comportamientos de consumidores.
+            
             """
         )
         #st.write("[ver servicios >](https://luisoliari.com.uy/servicios/)")        
@@ -127,7 +143,7 @@ with st.container():
      <input type="text" name="name" placeholder = "Tu nombre" required>
      <input type="email" name="email" placeholder = "Tu email" required>
      <textarea name="message" name="menssage"  placeholder = "Tu menssage aqui" required></textarea>
-     <button type="submit">Send</button>
+     <button type="submit">Enviar</button>
     </form>
     """
     left_column, right_column = st.columns(2)
